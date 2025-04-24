@@ -1,0 +1,8 @@
+# Fonts:
+#### Text Editors:
+	1. "CaskaydiaCove Nerd Font"
+#### System:
+	1. General => "Noto Sans 10pt"
+	2. Fixed with => "Hack 10pt"
+##################################################
+# Keyboard Shortcuts:
