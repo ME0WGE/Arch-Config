@@ -18,7 +18,8 @@ exec --no-startup-id kitty --hold -e 'fastfetch' # exec kitty terminal on startu
 set $mod Mod4
 
 # wallpapers
-exec --no-startup-id swaybg -i /home/sqrtyracc/Pictures/wallpapers/sun-light.png -m fill
+# exec --no-startup-id swaybg -i /home/sqrtyracc/Pictures/wallpapers/sun-light.png -m fill
+exec --no-startup-id swaybg -i /home/sqrtyracc/Pictures/wallpapers/followtherabbit.png -m fill
 
 # Notifications
 exec --no-startup-id mako
@@ -67,7 +68,9 @@ bindsym $mod+Return exec kitty
 bindsym $mod+c kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id fuzzel
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
+bindsym $mod+g exec --no-startup-id "rofi -show filebrowser"
+bindsym $mod+j exec --no-startup-id "rofi -show recursivebrowser"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -200,18 +203,30 @@ bindsym $mod+r mode "resize"
 exec waybar
 
 # Idle management using swayidle and swaylock
+# exec swayidle -w \
+#   timeout 300 "swaylock -f -c 000000" \
+#   timeout 600 "swaymsg 'output * dpms off'" \
+#   resume "swaymsg 'output * dpms on'" \
+#   before-sleep "swaylock -f -c 000000"
+
+
+# Idle management using swayidle and swaylock
 exec swayidle -w \
-  timeout 300 "swaylock -f -c 000000" \
-  timeout 600 "swaymsg 'output * dpms off'" \
-  resume "swaymsg 'output * dpms on'" \
-  before-sleep "swaylock -f -c 000000"
+  timeout 900 'swaylock -f -i /home/sqrtyracc/Pictures/wallpapers/jake.png --ring-color 6BDB70 --inside-color 9370DB' \
+  timeout 930 'swaymsg "output * dpms off"' \
+  resume 'swaymsg "output * dpms on"' \
+  before-sleep 'swaylock -f -i /home/sqrtyracc/Pictures/wallpapers/jake.png --ring-color 6BDB70 --inside-color 9370DB'
+# 900 secondes = 15 minutes, 930 = 15min30s to shutdown the screen after the lock
+
+# ...existing code...
 
 input * {
     xkb_layout be
 }
 
-input "1267:12553:ELAN2204:00_04F3:3109_Touchpad" {
+input type:touchpad {
     natural_scroll enabled
+    tap enabled
+    tap_button_map lrm
+    dwt enabled
 }
-
-

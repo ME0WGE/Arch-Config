@@ -65,6 +65,12 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty
+# # start text editor
+# bindsym $mod+F1 exec code
+# # start browser
+# bindsym $mod+F2 exec chromium
+# # start file manager
+# # bindsym $mod+d exec dolphin
 
 # kill focused window
 bindsym $mod+c kill
