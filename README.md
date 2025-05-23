@@ -4,11 +4,11 @@ This repository contains my personal configuration files and scripts for Arch Li
 
 ## 📋 Table of Contents
 
-- [ArchLinux Config Backup & Scripts](#-archlinux-config-backup--scripts)
-- [Scripts](#-scripts)
+- [ArchLinux Config Backup & Scripts](#archlinux-config-backup--scripts)
+- [Scripts](#scripts)
   - [Bash Scripts](#bash-scripts)
   - [Incoming Scripts](#incoming-scripts)
-- [Configurations](#-configurations)
+- [Configurations](#configurations)
   - [.bashrc](#bashrc)
   - [Kitty](#kitty)
   - [Sway](#sway)
