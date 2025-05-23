@@ -14,7 +14,7 @@ This repository contains my personal configuration files and scripts for Arch Li
   - [Sway](#sway)
   - [Waybar](#waybar)
   - [i3](#i3)
-- [Note](#note)
+- [Note](#-note)
 
 ## 🛠️ Scripts
 
