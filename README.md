@@ -113,6 +113,8 @@ This repository serves as a personal backup of configurations and scripts that I
 - **Compatibility**: Configurations may need adjustments to work on your system (paths, dependencies, etc.)
 - **No Warranty**: All content is provided "as-is" without any guarantees
 - **Backup**: Always backup your configs before applying any changes
+- **Learning Process**: I'm still learning Linux and Bash scripting - these configurations and scripts might not be the most optimal solutions
+- **Regular Updates**: Content is regularly updated as I improve and learn better practices
 
 ### Customization
 
