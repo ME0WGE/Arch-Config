@@ -11,9 +11,7 @@ source ~/.bash/config/color_variables
 
 
 #               PATH
-# web-template.sh
 export PATH="$HOME/.local/bin:$PATH"
-
 
 #				Functions
 # Necessary to include Git branch in the Terminal
@@ -57,7 +55,6 @@ mkcd() {
 }
 
 
-
 #				Terminal
 # Current Terminal
 PS1="\e[1;33;49m\u@meow\[\033[00m\]:\[\033[01;34m\]\w\[$Purple\$(parse_git_branch)\[\033[00m\][$(echo $?)]\$ \n> "
@@ -65,7 +62,6 @@ PS1="\e[1;33;49m\u@meow\[\033[00m\]:\[\033[01;34m\]\w\[$Purple\$(parse_git_branc
 # Template term with git branch
 #PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m
 #\]:\[\033[01;34m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ \n> " 
-
 
 
 #				Miscellaneous
@@ -123,6 +119,7 @@ alias ....='cd ../../..'
 alias dl='cd ~/Downloads'
 alias dc='cd ~/Documents'
 alias dk='cd ~/Desktop'
+alias cds='cd ~/Documents/coding-school35'
 # Refresh working term after ~/.bashrc change
 alias sbrc='source ~/.bashrc'
 # Human-readable sizes
