@@ -14,6 +14,7 @@ This repository contains my personal configuration files and scripts for Arch Li
   - [Sway](#sway)
   - [Waybar](#waybar)
   - [i3](#i3)
+- [Note](#note)
 
 ## 🛠️ Scripts
 
@@ -100,6 +101,25 @@ i3 window manager configuration.
 
 ---
 
-## 📝 License
+## 📝 Note
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Purpose
+
+This repository serves as a personal backup of configurations and scripts that I use on my Arch Linux setup. It's primarily designed for my daily workflow and personal reference.
+
+### Usage Disclaimer
+
+- **Not a Guide**: This is not meant to be a comprehensive tutorial for Arch Linux setup
+- **Compatibility**: Configurations may need adjustments to work on your system (paths, dependencies, etc.)
+- **No Warranty**: All content is provided "as-is" without any guarantees
+- **Backup**: Always backup your configs before applying any changes
+
+### Customization
+
+Feel free to:
+
+- Explore the configurations and scripts
+- Adapt them to your needs
+- Use them as inspiration for your own setup
+
+> **Note**: I use Arch btw
