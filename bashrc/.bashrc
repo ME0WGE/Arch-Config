@@ -14,6 +14,7 @@ source ~/.bash/config/color_variables
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 
+
 #				Functions
 # Necessary to include Git branch in the Terminal
 parse_git_branch() {
